@@ -101,7 +101,7 @@ nav li a:active {
 Parallax CSS SECTIONS
 ================================= */
 section.module: last-child {
-  margin-bottom: 0;
+  margin-bottom: 10;
 }
 
 section.module: h2 {
@@ -144,7 +144,7 @@ section.module.parallax {
 section.module.parallax h1 {
   margin-top: 0;
   font-size: 20px;
-  color: rgba (255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   line-height: 800px;
   font-weight: 700;
   text-align: center;
@@ -195,14 +195,28 @@ section.module.parallax-3 {
 
 
 
+.home{
+  float: left;
+  width: 100%;
+  padding-bottom: 50px;
+  text-align: center;
+}
 
 
 /* --Encounters-- */
+
+
 .excursions {
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding-top: 30px;
+    padding-bottom: 80px;
   text-align: center;
+}
+
+.excursions h2{
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .ticket {
@@ -237,6 +251,14 @@ section.module.parallax-3 {
 
 
 /* --gallery-- */
+
+.sightings h2{
+  width: 100%;
+  padding-top: 0;
+    padding-bottom: 50px;
+  text-align: center;
+}
+
 
 #gallery {
   width: 100%;
@@ -312,9 +334,21 @@ section.module.parallax-3 {
 
 
 /* --infographic-- */
+
+.tracking {
+  padding-top: 0;
+    padding-bottom: 50px;               
+}
+
+.tracking h2{
+  padding-top: 0;
+    padding-bottom: 50px;
+  text-align: center;
+}
+
 #infographic {
   width: 100%;
-  padding: 100px 100px;
+  padding: 10px 100px;
 }
 
 #infographic {
@@ -350,7 +384,7 @@ footer a:visited {
 }
 
 footer a:hover {
-  color: #ffffff;
+  color: #FF8900;
 }
 
 footer a:active {
@@ -359,34 +393,37 @@ footer a:active {
 
 #footer-nav h4 {
   font-size: .8em;
-  margin-bootom: 10px;
   color: #ffffff;
+  padding: 10px 0;
 }
 .fa-twitter,
 .fa-facebook,
 .fa-youtube,
 .fa-google {
-  font-size: 3em;
-  line-height: 1.2;
-  color: #043480; 
+  font-size: 2em;
+  line-height:  1.2;
+  color: #043480;
+  margin-bottom: 0;
+    margin-top: 50px;
 }
 
 .copyright {
   background-color: #fff;
   width: both;
   color: #959595;
-  padding: 50px 0;
+  padding-bottom: 50px;
 }
  
 #footer-nav {
   overflow: hidden;
   clear: both;
-  text-align: left;
-  padding: 100px 0;
+  text-align: center;
+  padding: 50px 0;
 }
 
 copyrght p {
-  margin-bottom: 10px;
+  margin-bottom: 100px;
+  padding: 0;
 }
 
 #footer-nav p {
@@ -397,6 +434,6 @@ copyrght p {
 .peddagogy-brand {
   width: 45px;
   height: 45px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
